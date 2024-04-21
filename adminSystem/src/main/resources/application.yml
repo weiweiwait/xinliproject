@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://116.204.89.207:3306/adsystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 805785597
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 1GB
+
